@@ -1,5 +1,11 @@
 <?php
 
+// namespace Models;
+
+// use Models\Player;
+// use Models\Dealer;
+// use Models\Deck;
+
 require_once "Player.php";
 require_once "Dealer.php";
 require_once "Deck.php";

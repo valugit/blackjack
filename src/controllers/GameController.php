@@ -1,5 +1,12 @@
 <?php
 
+// namespace Controllers;
+
+// use \Models\Game;
+// use \Models\Player;
+// use \Models\Dealer;
+// use \Models\Deck;
+
 require_once "../src/models/Game.php";
 require_once "../src/models/Player.php";
 require_once "../src/models/Dealer.php";

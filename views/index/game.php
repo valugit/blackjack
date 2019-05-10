@@ -40,7 +40,7 @@
         <button type="submit" name="stand">Stand</button>
       </form>
       <form method="POST" action="/?controller=game&action=new">
-        <button type="submit" name="reset">EndGame</button>
+        <button type="submit" name="reset">New Game</button>
       </form>
     <?php endif ?>
   </section>

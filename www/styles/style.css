@@ -7,7 +7,7 @@
   color: #fff;
   text-decoration: none;
   list-style: none;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", "Sogoe UI Symbol","Arial Unicode MS", sans-serif; }
 
 body {
   min-height: 100vh;
@@ -18,85 +18,96 @@ Body {
   display: flex;
   flex-direction: column;
   margin: 0; }
-  Body header h1 {
-    text-align: center;
-    padding: 20px; }
-  Body main {
-    height: 100%;
+
+header {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header form {
+    margin-right: 20px; }
+
+h1 {
+  color: #3bf498;
+  padding: 20px; }
+
+button {
+  transition: .5s ease;
+  border: 1px solid white;
+  width: 100%;
+  padding: 10px; }
+  button:hover {
+    transition: .5s ease;
+    cursor: pointer;
+    border: 1px solid #3bf498;
+    color: #3bf498; }
+
+.deck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  text-align: center;
+  width: 75px;
+  height: 100px;
+  margin: 0 10px; }
+
+main {
+  min-height: 84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main.bettingTable {
+    flex-direction: row;
+    justify-content: space-around; }
+    main.bettingTable button {
+      margin: 10px 0; }
+  main h2 {
+    text-transform: capitalize;
+    padding: 10px; }
+  main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    main form label {
+      align-self: flex-start; }
+    main form input {
+      border: 1px solid white;
+      padding: 10px;
+      margin: 5px 0px; }
+  main .players div {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; }
-    Body main.bettingTable {
-      flex-direction: row;
-      justify-content: space-around; }
-      Body main.bettingTable button {
-        margin: 10px 0; }
-    Body main h2 {
-      text-transform: capitalize;
-      padding: 10px; }
-    Body main form {
+    align-items: center;
+    margin: 100px 0; }
+    main .players div .win {
+      color: #3bf498; }
+    main .players div .loose {
+      color: #a00; }
+    main .players div .tie {
+      color: #ff8000; }
+    main .players div ul {
       display: flex;
-      flex-direction: column;
-      align-items: center; }
-      Body main form label {
-        align-self: flex-start; }
-      Body main form input {
-        border: 1px solid white;
-        padding: 10px;
-        margin: 5px 0px; }
-      Body main form button {
-        border: 1px solid white;
-        width: 100%;
-        padding: 10px; }
-        Body main form button:hover {
-          cursor: pointer;
-          border: 1px solid #3bf498;
-          color: #3bf498; }
-    Body main .players div {
-      display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: center;
-      margin: 100px 0; }
-      Body main .players div .win {
-        color: #3bf498; }
-      Body main .players div .loose {
-        color: #a00; }
-      Body main .players div .tie {
-        color: #ff8000; }
-      Body main .players div ul {
+      align-items: center; }
+      main .players div ul li {
         display: flex;
         justify-content: center;
-        align-items: center; }
-        Body main .players div ul li {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border: 1px solid white;
-          text-align: center;
-          width: 75px;
-          height: 100px;
-          margin: 0 10px; }
-    Body main .deck {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border: 1px solid white;
-      text-align: center;
-      width: 75px;
-      height: 100px;
-      margin: 0 10px; }
-  Body hr {
-    width: 100%;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid white; }
-  Body #foot {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
-    text-align: center; }
+        align-items: center;
+        border: 1px solid white;
+        text-align: center;
+        width: 75px;
+        height: 100px;
+        margin: 0 10px; }
+
+footer {
+  height: 8vh;
+  background-color: #3bf498;
+  display: flex;
+  align-items: center; }
+  footer span {
+    margin-left: 5%; }
 
 /*# sourceMappingURL=style.css.map */

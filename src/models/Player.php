@@ -1,5 +1,7 @@
 <?php
 
+// namespace Models;
+
 class Player {
   private $name = '';
   private $hand = [];

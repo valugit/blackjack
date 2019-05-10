@@ -9,5 +9,10 @@
 <body>
  <header>
   <h1>Blackjack</h1>
+
+  <?php if (isset($_SESSION["saved_game"])):?>
+    <form method="POST" action="/?controller=index&action=home">
+      <button type="submit" name="end">EndGame</button>
+    </form>
+  <?php endif ?>
  </header>
- <hr>

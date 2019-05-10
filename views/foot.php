@@ -1,6 +1,10 @@
-  <section id="foot">
-    <hr>
-    <footer>By Grégoire "Valu" MASSE.</footer>
-  </section>
+  <footer>
+    <span>
+      UnicodeTool by Grégoire "Valu" Masse
+      © 2019 All rights reserved
+    </span>
+  </footer>
+
 </body>
+
 </html>

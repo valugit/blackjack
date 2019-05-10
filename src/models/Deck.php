@@ -1,5 +1,9 @@
 <?php
 
+// namespace Models;
+
+// use Models\Card;
+
 require "Card.php";
 
 class Deck {

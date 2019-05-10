@@ -1,5 +1,7 @@
 <?php
 
+// namespace Models;
+
 class Card {
   private $value;
   private $suit;

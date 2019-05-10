@@ -1,5 +1,7 @@
 <?php
 
+// namespace Models;
+
 class Dealer {
   private $hand = [];
 
