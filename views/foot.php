@@ -1,6 +1,6 @@
   <footer>
     <span>
-      UnicodeTool by Grégoire "Valu" Masse
+      Blackjack by Grégoire "Valu" Masse
       © 2019 All rights reserved
     </span>
   </footer>
